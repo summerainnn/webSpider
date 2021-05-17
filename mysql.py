@@ -20,7 +20,7 @@ def generate_sql():
     return sql
 
 
-conn = pymysql.connect(host="localhost", user="root", password="123456", database="web")
+conn = pymysql.connect(host="xxx.xxx.xxx.xxx", user="root", password="123456", database="web")
 print(conn.server_version)
 
 cursor = conn.cursor()
