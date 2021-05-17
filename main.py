@@ -37,7 +37,7 @@ for i in range(1, 7):
         resume = resume.replace("../info", "http://cs.hitsz.edu.cn/info")
         # print(resume)
         data = {}
-        data['position'] = position
+        data['title'] = position
         data['phone'] = phone
         data['fax'] = fax
         data['email'] = email

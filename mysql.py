@@ -4,7 +4,7 @@ import pymysql
 
 def generate_sql():
     data = {
-        "position": "助理教授",
+        "title": "助理教授",
         "phone": "",
         "fax": "",
         "email": "cyy2020@hit.edu.cn",
